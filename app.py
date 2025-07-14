@@ -279,7 +279,7 @@ with tab2:
 
 with tab3:
     logger.info("Starting ARIMA forecasting")
-    st.subheader("Forecasting using ARIMA and GARCH models")
+    st.subheader("Forecasting using ARIMA model")
 
     arima_order = st.selectbox("Select ARIMA order (p,d,q):", [(1, 1, 1), (2, 1, 2), (3, 1, 3)], index=0)
 
